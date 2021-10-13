@@ -1,0 +1,124 @@
+    * {
+        box-sizing: border-box;
+    }
+
+.top {
+    background-color: #6d4a3cda;
+    text-align: center;
+    color: #ffff;
+    padding: 15px;
+}
+
+.instrucao {
+    background-color: #a19f9fc2;
+    color: #f1f1f1;
+    text-align: center;
+}
+
+.instrucao2 {
+    background-color: #015501b9;
+    color: #f1f1f1;
+    text-align: center;
+
+}
+
+.submit_bt{
+    background-color: #6d4a3cda;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-color: #FFFFFF;
+    border-style: solid;
+    color: #FFFFFF;
+    position: relative;
+    left: 25%;
+}
+
+.form {
+    font-stretch: extra-condensed;
+    color: #ffff;
+    background-color: #462a202c;
+    position: relative;
+    align-items: center;
+}
+
+#form2{
+    background-color: #01550150;
+    color: #FFFFFF;
+}
+.item{
+    background-color: #530b0b;
+}
+
+#label {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-color: #6d4a3cda;
+}
+
+#salvar {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-color: #6d4a3cda;
+    color: white;
+    background-color: #551901da;
+}
+
+.menu {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+.menuitem {
+    padding: 8px;
+    margin-top: 7px;
+    color: #ffff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+   width: 100px;
+}
+
+a {
+    color: #fff;
+}
+
+.main {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+.right {
+    background-color: lightblue;
+    float: left;
+    width: 20%;
+    padding: 10px 15px;
+    margin-top: 7px;
+}
+
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    .main {
+        width: 80%;
+        padding: 0;
+    }
+    .right {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+        width: 100%;
+    }
+}
